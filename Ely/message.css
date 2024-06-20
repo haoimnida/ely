@@ -1,0 +1,50 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Bubblegum Sans', Arial, sans-serif;
+    background-color: #f0f0f0;
+    background-image: url('C:/Users/Mike/Desktop/Ely/photos/bg.png');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between; /* Places items at each end of the container */
+    align-items: center;
+    max-width: 800px;
+    padding: 20px;
+    background: rgba(255, 192, 203, 0.8); /* Light pink background */
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(165, 81, 81, 0.849);
+}
+
+.content {
+    flex: 1; /* Take up remaining space */
+    padding-right: 20px;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    font-family: 'Bubblegum Sans', Arial, sans-serif;
+}
+
+p {
+    font-size: 1.2em;
+    font-family: 'Bubblegum Sans', Arial, sans-serif;
+}
+
+.picture {
+    flex: 0 0 auto; /* Do not grow or shrink */
+    width: 300px; /* Adjust width as necessary */
+}
+
+.picture img {
+    width: 100%;
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgb(128, 63, 63);
+}

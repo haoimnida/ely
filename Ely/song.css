@@ -1,0 +1,65 @@
+body {
+    font-family: 'Bubblegum Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    background-image: url('C:/Users/Mike/Desktop/Ely/photos/bg.png');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px; /* Width of the container, adjust as needed */
+    height: 400px; /* Height of the container, adjust as needed */
+    background-color: transparent; /* Transparent background */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Box shadow for depth */
+}
+
+.song {
+    position: relative; /* Ensure relative positioning for children */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 80%; /* Width of the song section relative to the container */
+}
+
+.image-container {
+    position: relative;
+    width: 100%;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    max-height: 80%; /* Adjust maximum height of the image */
+    border-radius: 10px; /* Rounded corners */
+    object-fit: cover; /* Ensure the image covers its container */
+}
+
+.overlay-text {
+    position: absolute;
+    top: 10px; /* Adjust top positioning as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Optional: Box shadow for text */
+}
+
+.overlay-text p {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #333; /* Text color */
+    margin: 0;
+    text-align: center;
+}

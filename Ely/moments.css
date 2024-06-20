@@ -1,0 +1,61 @@
+body {
+    font-family: 'Bubblegum Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    background-image: url('C:/Users/Mike/Desktop/Ely/photos/bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    padding: 20px;
+    border: none; /* Remove border */
+    overflow: hidden; /* Ensure content stays within container */
+}
+
+.video-container {
+    width: 320px; /* Fixed width of the video */
+    height: 360px; /* Adjusted height of the video container */
+    position: relative;
+    overflow: hidden; /* Ensure video doesn't overflow its container */
+    border-right: 2px solid #ccc; /* Right border for separation */
+}
+
+#modalVideo {
+    width: 100%; /* Ensure video fills its container */
+    height: 100%; /* Maintain aspect ratio */
+    border-radius: 8px; /* Rounded corners for video */
+}
+
+.message {
+    flex: 1; /* Take remaining space */
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.message h1, .message p {
+    background-color: #fefefe;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 0;
+    text-align: left;
+}
+
+.message h1 {
+    font-size: 1.5em; /* Adjust heading font size */
+    margin-bottom: 10px;
+}
+
+.message p {
+    font-size: 1.2em; /* Adjust paragraph font size */
+}

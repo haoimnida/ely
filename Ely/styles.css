@@ -1,0 +1,87 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Bubblegum Sans', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(
+        rgba(255, 154, 158, 0.5), /* Pink tone overlay with transparency */
+        rgba(254, 207, 239, 0.5)  /* Another shade of pink with transparency */
+    ), 
+    url('C:/Users/Mike/Desktop/Ely/photos/bg.png') no-repeat center center fixed;
+    background-size: cover;
+    color: #ffffff;
+    overflow: hidden; /* Prevent scrollbars */
+}
+
+.container {
+    text-align: center;
+    background: rgba(255, 105, 130, 0.8); /* Light pink background */
+    padding: 50px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    animation: fadeIn 1.5s ease-in-out;
+    position: relative; /* For ribbons positioning */
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+#startButton {
+    font-size: 2em;
+    padding: 20px 90px; /* Increased padding for a longer button */
+    color: #ffffff;
+    background: linear-gradient(to right, #ff758c, #ff7eb3);
+    border: none;
+    border-radius: 25px; /* Rounded corners */
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background 0.3s, transform 0.3s;
+    font-family: 'Bubblegum Sans', Arial, sans-serif;
+}
+
+#startButton:hover {
+    background: linear-gradient(to right, #ff7eb3, #ff758c);
+}
+
+#startButton:active {
+    transform: scale(0.95);
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+/* Decorative Ribbons and Flowers */
+.ribbon {
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 200px;
+    height: 40px;
+    background: linear-gradient(to right, #ff758c, #ff7eb3);
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.flower {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: url('flower.png') no-repeat center center / cover; /* Make sure to include your flower image in the same directory */
+}
+
+.flower.left {
+    top: 10px;
+    left: -30px;
+}
+
+.flower.right {
+    top: 10px;
+    right: -30px;
+}

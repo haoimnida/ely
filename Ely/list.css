@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap');
+
+body {
+    font-family: 'Bubblegum Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffe0e0;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    position: relative; /* Ensure body is relatively positioned for absolute positioning */
+}
+
+.headers-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px 0; /* Adjust spacing as needed */
+}
+
+.header {
+    margin: 10px;
+    padding: 10px;
+    background-color: #4CAF50; /* Background color for each header */
+    color: white; /* Text color for each header */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    flex: 1 1 150px; /* Adjust the basis and growth of flex items */
+    text-align: center; /* Center the text within the header */
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    margin-top: 20px; /* Add some space between the headers and the image */
+}
+
+.portrait {
+    display: block;
+    width: 820px; /* Adjust width as needed */
+    height: 620px; /* Ensure height matches width */
+    border-radius: 10px; /* Optional: Add border radius to image */
+}
+
+.Lovely {
+    position: absolute; /* Position the text absolutely over the image */
+    top: 125px; /* Align text vertically in the middle */
+    left: 440px; /* Center text horizontally */
+    transform: translate(-50%, -50%); /* Center the text precisely */
+    color: rgb(0, 0, 0); /* Text color */
+    font-size: 36px; /* Adjust font size as needed */
+    font-weight: bold;
+    z-index: 1; /* Ensure text is above the image */
+    padding: 20px; /* Add padding around the text */
+}
+.Gaus {
+    position: absolute; /* Position the text absolutely over the image */
+    top: 125px; /* Align text vertically in the middle */
+    left: 850px; /* Center text horizontally */
+    transform: translate(-50%, -50%); /* Center the text precisely */
+    color: rgb(0, 0, 0); /* Text color */
+    font-size: 36px; /* Adjust font size as needed */
+    font-weight: bold;
+    z-index: 1; /* Ensure text is above the image */
+    padding: 20px; /* Add padding around the text */
+}
+.Freak {
+    position: absolute; /* Position the text absolutely over the image */
+    top: 225px; /* Align text vertically in the middle */
+    left: 430px; /* Center text horizontally */
+    transform: translate(-50%, -50%); /* Center the text precisely */
+    color: rgb(0, 0, 0); /* Text color */
+    font-size: 25px; /* Adjust font size as needed */
+    font-weight: bold;
+    z-index: 1; /* Ensure text is above the image */
+    padding: 20px; /* Add padding around the text */
+}
+
+.Nineteen {
+    position: absolute; /* Position the text absolutely over the image */
+    top: 225px; /* Align text vertically in the middle */
+    left: 850px; /* Center text horizontally */
+    transform: translate(-50%, -50%); /* Center the text precisely */
+    color: rgb(0, 0, 0); /* Text color */
+    font-size: 32px; /* Adjust font size as needed */
+    font-weight: bold;
+    z-index: 1; /* Ensure text is above the image */
+    padding: 20px; /* Add padding around the text */
+}
+.Samdal {
+    position: absolute; /* Position the text absolutely over the image */
+    top: 325px; /* Align text vertically in the middle */
+    left: 850px; /* Center text horizontally */
+    transform: translate(-50%, -50%); /* Center the text precisely */
+    color: rgb(0, 0, 0); /* Text color */
+    font-size: 33px; /* Adjust font size as needed */
+    font-weight: bold;
+    z-index: 1; /* Ensure text is above the image */
+    padding: 20px; /* Add padding around the text */
+}
+
+.Watermelon {
+    position: absolute; /* Position the text absolutely over the image */
+    top: 325px; /* Align text vertically in the middle */
+    left: 430px; /* Center text horizontally */
+    transform: translate(-50%, -50%); /* Center the text precisely */
+    color: rgb(0, 0, 0); /* Text color */
+    font-size: 33px; /* Adjust font size as needed */
+    font-weight: bold;
+    z-index: 1; /* Ensure text is above the image */
+    padding: 20px; /* Add padding around the text */
+}
+
+.Gakuen {
+    position: absolute; /* Position the text absolutely over the image */
+    top: 425px; /* Align text vertically in the middle */
+    left: 430px; /* Center text horizontally */
+    transform: translate(-50%, -50%); /* Center the text precisely */
+    color: rgb(0, 0, 0); /* Text color */
+    font-size: 33px; /* Adjust font size as needed */
+    font-weight: bold;
+    z-index: 1; /* Ensure text is above the image */
+    padding: 20px; /* Add padding around the text */
+}
+
+.Senate {
+    position: absolute; /* Position the text absolutely over the image */
+    top: 425px; /* Align text vertically in the middle */
+    left: 850px; /* Center text horizontally */
+    transform: translate(-50%, -50%); /* Center the text precisely */
+    color: rgb(0, 0, 0); /* Text color */
+    font-size: 33px; /* Adjust font size as needed */
+    font-weight: bold;
+    z-index: 1; /* Ensure text is above the image */
+    padding: 20px; /* Add padding around the text */
+}
+
+.Kpop {
+    position: absolute; /* Position the text absolutely over the image */
+    top: 520px; /* Align text vertically in the middle */
+    left: 430px; /* Center text horizontally */
+    transform: translate(-50%, -50%); /* Center the text precisely */
+    color: rgb(0, 0, 0); /* Text color */
+    font-size: 33px; /* Adjust font size as needed */
+    font-weight: bold;
+    z-index: 1; /* Ensure text is above the image */
+    padding: 20px; /* Add padding around the text */
+}
+
+.Bruno {
+    position: absolute; /* Position the text absolutely over the image */
+    top: 520px; /* Align text vertically in the middle */
+    left: 850px; /* Center text horizontally */
+    transform: translate(-50%, -50%); /* Center the text precisely */
+    color: rgb(0, 0, 0); /* Text color */
+    font-size: 33px; /* Adjust font size as needed */
+    font-weight: bold;
+    z-index: 1; /* Ensure text is above the image */
+    padding: 20px; /* Add padding around the text */
+}
+
+.Wave {
+    position: absolute; /* Position the text absolutely over the image */
+    top: 620px; /* Align text vertically in the middle */
+    left: 430px; /* Center text horizontally */
+    transform: translate(-50%, -50%); /* Center the text precisely */
+    color: rgb(0, 0, 0); /* Text color */
+    font-size: 33px; /* Adjust font size as needed */
+    font-weight: bold;
+    z-index: 1; /* Ensure text is above the image */
+    padding: 20px; /* Add padding around the text */
+}
+
+.Kdrama {
+    position: absolute; /* Position the text absolutely over the image */
+    top: 620px; /* Align text vertically in the middle */
+    left: 850px; /* Center text horizontally */
+    transform: translate(-50%, -50%); /* Center the text precisely */
+    color: rgb(0, 0, 0); /* Text color */
+    font-size: 33px; /* Adjust font size as needed */
+    font-weight: bold;
+    z-index: 1; /* Ensure text is above the image */
+    padding: 20px; /* Add padding around the text */
+}
+

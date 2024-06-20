@@ -1,0 +1,43 @@
+body {
+    font-family: 'Bubblegum Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    background-image: url('C:/Users/Mike/Desktop/Ely/photos/bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.photos-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; /* Adjust spacing between photos */
+}
+
+.photo {
+    position: relative;
+    width: 600px; /* Adjust width as needed */
+    height: 400px; /* Adjust height as needed */
+    overflow: hidden; /* Hide overflow to clip overlapping parts */
+}
+
+.photo img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.photo-top {
+    margin-bottom: -100px; /* Adjust negative margin to overlap with photo below */
+    z-index: 2; /* Ensure top photo is above */
+}
+
+.photo-bottom {
+    z-index: 1; /* Ensure bottom photo is below */
+}
